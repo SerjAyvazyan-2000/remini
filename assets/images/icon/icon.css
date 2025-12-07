@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-stars {
+  mask-image: url(stars.svg);
+  -webkit-mask-image: url(stars.svg);
+}
+
+.demonstration-icon1{
+  mask-image: url(demonstrationIcon1.svg);
+  -webkit-mask-image: url(demonstrationIcon1.svg);
+}
+.demonstration-icon2{
+  mask-image: url(demonstrationIcon2.svg);
+  -webkit-mask-image: url(demonstrationIcon2.svg);
+}
+
+.demonstration-icon3{
+  mask-image: url(demonstrationIcon3.svg);
+  -webkit-mask-image: url(demonstrationIcon3.svg);
+}
